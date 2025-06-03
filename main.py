@@ -33,6 +33,7 @@ def bad_function():
     x = 1 / 0  # division by zero
     print("Hello" + 1)  # type error
     unused_var = 123  # unused variable
+    names = 32
 
 
 if __name__ == "__main__":
