@@ -26,6 +26,14 @@ def baz():
 def foo():  # duplicate function name
     print("Function redefined")
 
+    # bad.py
+
+
+def bad_function():
+    x = 1 / 0  # division by zero
+    print("Hello" + 1)  # type error
+    unused_var = 123  # unused variable
+
 
 if __name__ == "__main__":
     foo()
